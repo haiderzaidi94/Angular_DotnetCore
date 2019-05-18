@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container" routerLinkActive="router-link-active">
+    <a class="navbar-brand" [routerLink]="['/home']"  >Meeting App</a>
+
+
+    <ul *ngIf="LoggedIn()" class="navbar-nav mr-auto">
+      <li class="nav-item"  routerLinkActive="router-link-active">
+        <a class="nav-link" [routerLink]="['/lists']">Matches</a>
+      </li>
+      <li class="nav-item" routerLinkActive="router-link-active" >
+        <a class="nav-link" [routerLink]="['/members-list']">Lists</a>
+      </li>
+      <li class="nav-item" routerLinkActive="router-link-active"> 
+        <a class="nav-link" [routerLink]="['/messages']">Messages</a>
+      </li>
+      
+    </ul>
+
+    <div *ngIf="LoggedIn()" class="dropdown" dropdown>
+      <a class="dropdown-toggle text-light" dropdownToggle>
+        Welcome {{ auth.decodedToken?.unique_name | titlecase }}
+      </a>
+      <div class="dropdown-menu mt-3" aria-labelledby="dropdownMenuButton" *dropdownMenu>
+        <a class="dropdown-item" href="#"><i class="fa fa-user">Edit Profile</i></a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><li class="fa fa-sign-out" (click)="LogOut()">Logout</li></a>
+      </div>
+    </div>
+
+
+    <form *ngIf="!LoggedIn()"  #LoginForm="ngForm" class="form-inline my-2 my-lg-0" (ngSubmit)="Login()">
+      <input class="form-control mr-sm-2" type="text" placeholder="Username" required name = "username" [(ngModel)]="model.username">
+      <input class="form-control mr-sm-2" type="password" placeholder="Password" required name = "password" [(ngModel)]="model.password">
+      <button [disabled]="!LoginForm.valid" class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+    </form>
+  </div>
+  
+</nav>

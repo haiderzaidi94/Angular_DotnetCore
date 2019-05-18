@@ -1,0 +1,14 @@
+C:\Users\shaider\source\repos\MeetingApp\bin\Debug\netcoreapp2.2\MeetingApp.deps.json
+C:\Users\shaider\source\repos\MeetingApp\bin\Debug\netcoreapp2.2\MeetingApp.runtimeconfig.json
+C:\Users\shaider\source\repos\MeetingApp\bin\Debug\netcoreapp2.2\MeetingApp.runtimeconfig.dev.json
+C:\Users\shaider\source\repos\MeetingApp\bin\Debug\netcoreapp2.2\MeetingApp.dll
+C:\Users\shaider\source\repos\MeetingApp\bin\Debug\netcoreapp2.2\MeetingApp.pdb
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.csprojAssemblyReference.cache
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.csproj.CoreCompileInputs.cache
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.RazorAssemblyInfo.cache
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.AssemblyInfoInputs.cache
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.AssemblyInfo.cs
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.RazorTargetAssemblyInfo.cache
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.dll
+C:\Users\shaider\source\repos\MeetingApp\obj\Debug\netcoreapp2.2\MeetingApp.pdb
